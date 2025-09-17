@@ -1,64 +1,57 @@
-# 📱 FIAP AsyncStorage CRUD App
+<h1 style="font-family: 'Times New Roman', serif; font-weight: bold; text-align: center;">
+Kairos 📱
+</h1>
 
-[![Expo](https://img.shields.io/badge/Expo-49.0.0-000?logo=expo&logoColor=fff)](https://expo.dev/)
-[![React Native](https://img.shields.io/badge/React%20Native-0.74-blue?logo=react&logoColor=fff)](https://reactnative.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)
-[![AsyncStorage](https://img.shields.io/badge/Storage-AsyncStorage-green)](https://react-native-async-storage.github.io/async-storage/)
+<p align="center">
+👥 Desenvolvedores
+- Victoria Franceschini Pizza – RM 550609  
+- Eric de Carvalho Rodrigues – RM 550249  
+</p>
 
-Aplicativo desenvolvido em **React Native (Expo + TypeScript)** para a disciplina de mobile **SPRINT 1 (FIAP)**.  
-O app implementa um sistema de **Login + CRUD de Usuários** utilizando **AsyncStorage**.
 
----
+<p align="center">
+<img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/-AsyncStorage-02569B?logo=redux&logoColor=white" />
+<img src="https://img.shields.io/badge/-Mobile-FF6F00?logo=android&logoColor=white" />
+<img src="https://img.shields.io/badge/-Feito%20com%20cafe-6f4e37?logo=buymeacoffee&logoColor=white" />
+<img src="https://img.shields.io/badge/-React%20me%20salva-61DAFB?logo=react&logoColor=white" />
+</p>
 
-## 🎨 Tema
-
-- **Cor principal (FIAP):** `#ed145b`  
-- Paleta escura (`dark mode`) com cartões, textos e estados (OK, Warning, Danger).  
-- Header customizado: `FIAP • AsyncStorage CRUD`.
+<p align="center">
+Aplicativo desenvolvido em React Native (Expo + TypeScript) para a disciplina de mobile SPRINT 3 (FIAP).  
+</p>
 
 ---
 
 ## 🚀 Funcionalidades
 
-✅ **Login**  
-- Autenticação local por **e-mail e senha**.  
-- Persistência da sessão com `AsyncStorage`.  
-
-✅ **Cadastro de Usuário**  
-- Criação de novos usuários com:
-  - Nome  
-  - E-mail  
-  - Senha  
-  - Avatar (URL personalizada ou padrão)  
-- Validação de duplicidade de e-mail.  
-
-✅ **Perfil**  
-- Exibe dados do usuário logado: nome, e-mail e avatar.  
-- Botões para editar, listar usuários ou sair da conta.  
-
-✅ **Edição / Exclusão**  
-- Atualização de nome, e-mail, senha e avatar.  
-- Validação ao alterar e-mail (não duplicar).  
-- Exclusão de usuário com confirmação.  
-
-✅ **Lista de Usuários**  
-- Lista todos os usuários cadastrados no dispositivo.  
-- Ações rápidas: **Abrir Perfil** ou **Editar**.  
-
-✅ **Sessão**  
-- Controle de login persistente.  
-- Logout com limpeza do `AsyncStorage`.  
+- **Cadastro e autenticação de usuário** (email/senha + reconhecimento facial).  
+- **Conexão com contas bancárias** via APIs (Open Banking / OAuth2) para leitura segura de transações.  
+- **Monitoramento em tempo real** das movimentações financeiras das contas vinculadas.  
+- **Detecção de transações suspeitas** (destinos classificados como casas de aposta, padrões recorrentes, valores atípicos).  
+- **Bloqueio automático de transferências suspeitas** (status pendente até confirmação).  
+- **Geração automática de alertas** para o usuário com detalhes da operação (valor, destino, motivo).  
+- **Confirmação consciente in-app** (botões para Confirmar / Cancelar) antes de prosseguir.  
+- **Autenticação por reconhecimento facial** para liberar transferências excepcionais.  
+- **Rede de apoio configurável**: contatos de confiança que podem ser notificados em casos críticos.  
+- **Dashboard motivacional** com contador de dias sem jogar e comparação anônima com outros usuários no mesmo período.  
+- **Histórico completo** de transações, alertas, decisões do usuário e ativações da rede de apoio.  
+- **Exportação de histórico** em CSV/PDF para auditoria pessoal.  
+- **Preferências de notificação** (push, email, SMS) configuráveis pelo usuário.  
+- **Proteção de privacidade e conformidade** (criptografia em trânsito e repouso, conformidade LGPD).
 
 ---
 
 ## 🛠️ Tecnologias
 
-- [Expo](https://expo.dev/) (CLI, Metro bundler)  
-- [React Native](https://reactnative.dev/)  
-- [TypeScript](https://www.typescriptlang.org/)  
-- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)  
-
----
-
-## 📂 Estrutura
+<p align="center">
+  <!-- Front-end / Mobile -->
+  <img src="https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=white" />
+  <!-- Banco de Dados -->
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+  <!-- Biometria -->
+  <img src="https://img.shields.io/badge/Biometria-8A2BE2?logo=faceit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/CI/CD-F05032?logo=githubactions&logoColor=white" />
+</p>
 
